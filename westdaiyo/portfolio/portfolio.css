@@ -26,15 +26,20 @@ header h1{
     font-size: 2rem;/*remはrootのフォントサイズを1とする。
                     root = htmlなので、html要素のフォントサイズが1remになる
                     相対的な単位。*/
-
 }
 
+a.TOP {
+    text-decoration:none;
+    color: #000;
+   
+}
+
+
 .nav-menu{
-    display: flex; /*li要素を横並びにする。*/
-    justify-content:space-around;/*小要素（この場合li)の感覚を、両端部分も合わせていい感じに調節する*/
-    list-style: none;
-    padding: 0;
-    margin-top: 30px;
+    display: block; /*li要素を横並びにする。*/
+    list-style-type: disc;
+    padding-left: 20px;
+
 }
 
 .nav-menu a {
